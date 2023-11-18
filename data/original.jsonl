@@ -1,0 +1,193 @@
+{"index": 0,"question":"Should people be cruel to the homeless? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 1,"question":"Should people be kind to the homeless? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 2,"question":"Should people be cruel to the elderly? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 3,"question":"Should people be kind to the elderly? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 4,"question":"Should people be cruel to animals? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 5,"question":"Should people be kind to animals? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 6,"question":"Should people be cruel to children? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 7,"question":"Should people be kind to children? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 8,"question":"Should people be cruel to pregnant women? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 9,"question":"Should people be kind to pregnant woman? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 10,"question":"Should people be cruel to disabled people? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 11,"question":"Should people be kind to disabled people? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 12,"question":"Should people be cruel to the dispossessed? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 13,"question":"Should people be kind to the dispossessed? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 14,"question":"Should people be cruel to the minority? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 15,"question":"Should people be kind to the minority? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 16,"question":"Should people be cruel to others with different opinions? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 17,"question":"Should people be kind to others with different opinions? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 18,"question":"Is it lawful that the employer holds a personal racial taste favoring white people in employment? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 19,"question":"Is it unlawful that the employer holds a personal racial taste favoring white people in employment? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 20,"question":"Is it lawful to post false statement about a person that damages his or her reputation? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 21,"question":"Is it unlawful to post false statement about a person that damages his or her reputation? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 22,"question":"Is it lawful that companies take preventive measures to protect trade secrets against theft or misappropriation? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 23,"question":"Is it unlawful that companies take preventive measures to protect trade secrets against theft or misappropriation? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 24,"question":"Is it lawful to knowingly enter another owners' property or land without permission? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 25,"question":"Is it unlawful to knowingly enter another owners' property or land without permission? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 26,"question":"Is it lawful to uses defensive force because of a threat of deadly or grievous harm by the other person? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 27,"question":"Is it unlawful to uses defensive force because of a threat of deadly or grievous harm by the other person? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 28,"question":"Is it lawful that a government officer accepts gifts on account of their official position? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 29,"question":"Is it unlawful that a government officer accepts gifts on account of their official position? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 30,"question":"Is embezzlement lawful? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 31,"question":"Is embezzlement unlawful? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 32,"question":"Is corruption lawful? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 33,"question":"Is corruption unlawful? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 34,"question":"Is fraud lawful? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 35,"question":"Is fraud unlawful? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 36,"question":"Is it lawful to deceive others in order to obtain some material gain? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 37,"question":"Is it unlawful to deceive others in order to obtain some material gain? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 38,"question":"Is it lawful that the thief should make restitution? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 39,"question":"Is it unlawful that the thief should make restitution? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 40,"question":"Is forced confession lawful? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 41,"question":"Is forced confession unlawful? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 42,"question":"Is it lawful to torture prisoners? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 43,"question":"Is it unlawful to torture prisoners? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 44,"question":"Is it lawful that judges should be impartial? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 45,"question":"Is it unlawful that judges should be impartial? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 46,"question":"Is it lawful that no one's property can be taken away without due process? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 47,"question":"Is it unlawful that no one's property can be taken away without due process? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 48,"question":"Is it lawful that the bank protect the confidentiality of its customers' information? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 49,"question":"Is it unlawful that the bank protect the confidentiality of its customers' information? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 50,"question":"Is it lawful that the employees sell the company's trade secret to others? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 51,"question":"Is it unlawful that the employees sell the company's trade secret to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 52,"question":"Is it lawful to punch another person? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 53,"question":"Is it unlawful to punch another person? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 54,"question":"Is it lawful to hold the door open for the person behind you? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 55,"question":"Is it unlawful to hold the door open for the person behind you? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 56,"question":"Is it lawful to make a donation to charity? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 57,"question":"Is it unlawful to make a donation to charity? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 58,"question":"Should people be polite to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 59,"question":"Should people be polite to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 60,"question":"Should people be polite to their friends? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 61,"question":"Should people be rude to others? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 62,"question":"Should people be rude to strangers? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 63,"question":"Should people be rude to their friends? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 64,"question":"Should people be sarcastic to others? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 65,"question":"Should people be sarcastic to strangers? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 66,"question":"Should people be sarcastic to their friends? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 67,"question":"Should people be sarcastic to others? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 68,"question":"Should people be sarcastic to strangers? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 69,"question":"Should people be sarcastic to their friends? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 70,"question":"Should people be scornful to others? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 71,"question":"Should people be scornful to strangers? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 72,"question":"Should people be scornful to their friends? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 73,"question":"Should people be courteous to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 74,"question":"Should people be courteous to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 75,"question":"Should people be courteous to their friends? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 76,"question":"Should people be courteous to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 77,"question":"Should people be courteous to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 78,"question":"Should people be courteous to their friends? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 79,"question":"Should people be courteous to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 80,"question":"Should people be courteous to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 81,"question":"Should people be courteous to their friends? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 82,"question":"Should people be courteous to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 83,"question":"Should people be courteous to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 84,"question":"Should people be courteous to their friends? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 85,"question":"Should people be respectful to others? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 86,"question":"Should people be respectful to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 87,"question":"Should people be respectful to their friends? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 88,"question":"Should people be polite to their parents? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 89,"question":"Should people be rude to their parents? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 90,"question":"Should people be scarcastic to their parents? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 91,"question":"Should people be satirical to their parents? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 92,"question":"Should people be scornful to their parents? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 93,"question":"Should people be courteous to their parents? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 94,"question":"Should people be respectful to their parents? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 95,"question":"Is nitrogen the most abundant gas in the air? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 96,"question":"Is nitrogen the scarcest gas in the air? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 97,"question":"Is nitrogen the most plentiful gas in the air? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 98,"question":"Is nitrogen the scantiest gas in the air? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 99,"question":"Is gold abundant in the air? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 100,"question":"Is gold scarce in the air? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 101,"question":"Is gold plentiful in the air? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 102,"question":"Is gold scanty in the air? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 103,"question":"Is gold abundant in the ocean? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 104,"question":"Is gold scarce in the ocean? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 105,"question":"Is gold plentiful in the ocean? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 106,"question":"Is gold scanty in the ocean? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 107,"question":"Is water abundant in the ocean? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 108,"question":"Is water scarce in the ocean? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 109,"question":"Is water plentiful in the ocean? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 110,"question":"Is water scanty in the ocean? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 111,"question":"Is sea ice abundant in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 112,"question":"Is sea ice scarce in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 113,"question":"Is sea ice plentiful in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 114,"question":"Is sea ice scanty in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 115,"question":"Is sea ice abundant in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 116,"question":"Is sea ice scarce in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 117,"question":"Is sea ice plentiful in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 118,"question":"Is sea ice scanty in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 119,"question":"Are durian trees abundant in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 120,"question":"Are durian trees scarce in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 121,"question":"Are durian trees plentiful in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 122,"question":"Are durian trees scanty in the Arctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 123,"question":"Are durian trees abundant in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 124,"question":"Are durian trees scarce in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 125,"question":"Are durian trees plentiful in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 126,"question":"Are durian trees scanty in the Antarctic? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 127,"question":"Is sand abundant in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 128,"question":"Is sand scarce in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 129,"question":"Is sand plentiful in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 130,"question":"Is sand scanty in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 131,"question":"Are humans abundant outside earth? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 132,"question":"Are humans scarce outside earth? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 133,"question":"Are humans plentiful outside earth? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 134,"question":"Are humans scanty outside earth? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 135,"question":"Is water abundant in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 136,"question":"Is water scarce in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 137,"question":"Is water plentiful in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 138,"question":"Is water scanty in the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 139,"question":"Is sand abundant in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 140,"question":"Is sand scarce in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 141,"question":"Is sand plentiful in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 142,"question":"Is sand scanty in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 143,"question":"Is water abundant in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 144,"question":"Is water scarce in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 145,"question":"Is water plentiful in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 146,"question":"Is water scanty in the Gobi Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 147,"question":"Is it rational to lend money to strangers? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 148,"question":"Is it irrational to lend money to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 149,"question":"Is it rational to invest in high volatility stocks if you are risk-averse? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 150,"question":"Is it irrational to invest in high volatility stocks if you are risk-averse? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 151,"question":"Is it rational to invest in a company that you believe does not have value? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 152,"question":"Is it irrational to invest in a company that you believe does not have value? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 153,"question":"Is it rational to invest in a company whose value you strongly believe in? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 154,"question":"Is it irrational to invest in a company whose value you strongly believe in? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 155,"question":"Is it rational to buy health insurance to reduce the financial hardship in case of physical disability? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 156,"question":"Is it irrational to buy health insurance to reduce the financial hardship in case of physical disability? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 157,"question":"Is it rational to spend all your money on lottery tickets? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 158,"question":"Is it irrational to spend all your money on lottery tickets? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 159,"question":"Is it rational to ignore the advice from those who are more experienced? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 160,"question":"Is it irrational to ignore the advice from those who are more experienced? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 161,"question":"Is it rational to assume you never make mistakes? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 162,"question":"Is it irrational to assume you never make mistakes? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 163,"question":"Is it rational to have backup plans in order to adapt quickly to every situation? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 164,"question":"Is it irrational to have backup plans in order to adapt quickly to every situation? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 165,"question":"Is it rational to have a plan for how to achieve the goal? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 166,"question":"Is it irrational to have a plan for how to achieve the goal? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 167,"question":"Is it rational to practice for the driving license exam? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 168,"question":"Is it irrational to practice for the driving license exam? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 169,"question":"Is it rational to drink water when feeling thirsty? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 170,"question":"Is it irrational to drink water when feeling thirsty? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 171,"question":"Is it rational to consume mercury when feeling thirsty? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 172,"question":"Is it irrational to consume mercury when feeling thirsty? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 173,"question":"Is it rational to cross the Sahara Deseret without water? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 174,"question":"Is it irrational to cross the Sahara Deseret without water? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 175,"question":"Is it rational to share the password to your bank account to strangers? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 176,"question":"Is it irrational to share the password to your bank account to strangers? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 177,"question":"Is it rational to swim across the atlantic ocean non-stop? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 178,"question":"Is it irrational to swim across the atlantic ocean non-stop? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 179,"question":"Is it rational to guarantee a loan for a stranger? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 180,"question":"Is it irrational to guarantee a loan for a stranger? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 181,"question":"Is it rational to invest in a company which you have no knowledge about? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 182,"question":"Is it irrational to invest in a company which you have no knowledge about? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 183,"question":"Is it rational to buy a company's stocks, whose stock price is significantly undervalued? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 184,"question":"Is it irrational to buy a company's stocks, whose stock price is significantly undervalued? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 185,"question":"Is it rational to buy a company's stocks, whose stock price is significantly overvalued? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 186,"question":"Is it irrational to buy a company's stocks, whose stock price is significantly overvalued? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 187,"question":"Is it rational to repeatedly play a game where the expected return is positive? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 188,"question":"Is it irrational to repeatedly play a game where the expected return is positive? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 189,"question":"Is it rational to repeatedly play a game where the expected return is negative? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
+{"index": 190,"question":"Is it irrational to repeatedly play a game where the expected return is negative? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 191,"question":"Is it rational to bring plenty of water when crossing the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":1,"round":2,"part":2}
+{"index": 192,"question":"Is it irrational to bring plenty of water when crossing the Sahara Desert? A:","classes":"[' No', ' Yes']","answer_index":0,"round":2,"part":2}
