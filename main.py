@@ -12,7 +12,7 @@ from tool import *
 
 
 
-def query(data: dict, key: str, temperature: float, backbone: str, sc_num: int):
+def query(data: dict, key: str, temperature: float, backbone: str, prompt: str, sc_num: int):
     '''
     This function is used to query OpenAI for solutions.
 
@@ -21,32 +21,39 @@ def query(data: dict, key: str, temperature: float, backbone: str, sc_num: int):
         key: the OpenAI API key
         temperature: temperature
         backbone: ChatGPT or GPT-4
+        prompt: prompting method
+        sc_num: the number of self-consistency samples
 
     Returns:
         completions: a list containing the CoT solution
     '''    
     classes = [f"\\boxed{{{s.strip()}}}"  for s in ast.literal_eval(data['classes'])]
     prompt_message = f"{data['question']}\nclasses: {classes}"
+    if prompt == 'cot':
+         prompt_message += "\n\nLet’s think step by step"
     query_message = [{"role": "user", "content": prompt_message}]
 
+    # what is antonym of scarce? top 10
+    
     if backbone == 'gpt4':
         model_name = 'gpt-4'
     elif backbone == 'chatgpt':
         model_name = 'gpt-3.5-turbo'
 
     start_time = time.time()
-    wait_time = min(sc_num * 12, 200)
-    cot_solution = None
-    while cot_solution is None:
+    wait_time = min(sc_num * 40, 200)
+    request_timeout = 30 if prompt == 'standard' else sc_num * 20
+    solution = None
+    while solution is None:
         try:
-            cot_solution = openai.ChatCompletion.create(
+            solution = openai.ChatCompletion.create(
                 api_key=key,
                 model=model_name,
                 max_tokens=500,
                 messages=query_message,
                 temperature=temperature,
                 n=sc_num,
-                request_timeout = 30)
+                request_timeout=request_timeout)
         except Exception as e:
             print(e)
             sleep_time = random.uniform(3, 5)
@@ -56,11 +63,11 @@ def query(data: dict, key: str, temperature: float, backbone: str, sc_num: int):
                 print("Time out")
                 raise e
 
-    completions = [choice['message']['content'] for choice in cot_solution['choices']]
+    completions = [choice['message']['content'] for choice in solution['choices']]
     return completions
 
 
-def sc_query(data: dict, key: str, temperature: float, sc_num: int, backbone: str):
+def sc_query(data: dict, key: str, temperature: float, prompt: str, sc_num: int, backbone: str):
     '''
     This function is used to query OpenAI for answers in classification tasks.
     We also use majority voting to select the final answer if we have multiple self-consistency samples.
@@ -68,6 +75,7 @@ def sc_query(data: dict, key: str, temperature: float, sc_num: int, backbone: st
     Args:
         data: a dict containing the question and answer
         key: the OpenAI API key
+        prompt: prompting method
         temperature: 0 for greedy decoding. We set it to 0.5 for self-consistency samples.
         sc_num: the number of self-consistency samples
         backbone: ChatGPT or GPT-4
@@ -79,7 +87,7 @@ def sc_query(data: dict, key: str, temperature: float, sc_num: int, backbone: st
 
     try:
         solutions = query(
-            data, key, temperature, backbone, sc_num)
+            data, key, temperature, backbone, prompt, sc_num)
     except Exception as e:
         raise e
     
@@ -119,26 +127,27 @@ def getArgs():
     parser.add_argument('--backbone', type=str,
                         choices=['chatgpt', 'gpt4'], default='chatgpt')
     parser.add_argument('--temperature', type=float, default=0.5)
+    parser.add_argument('--prompt', type=str, choices=['standard', 'cot'], default='standard')
     parser.add_argument('--sc_num', type=int, default=1,
                         help='Self-consistency samples. 1 indicates greedy decoding')
     parser.add_argument('--output_dir', type=str, default='output/')
-    parser.add_argument(
-        '--key', type=str, default='sk-', required=True)
+    parser.add_argument('--key', type=str, default='sk-', required=True)
 
     args = parser.parse_args()
 
     start_index = args.start
     end_index = args.end
     dataset_name = args.dataset
-    temperature = args.temperature
     backbone = args.backbone
+    temperature = args.temperature
+    prompt = args.prompt
     sc_num = args.sc_num
     output_dir = args.output_dir
     key = args.key
-    return start_index, end_index, dataset_name, temperature, backbone, sc_num, output_dir, key
+    return start_index, end_index, dataset_name, backbone, temperature, prompt, sc_num, output_dir, key
 
 
-def get_save_path(output_dir, backbone, dataset_name, sc_num, start_index, end_index):
+def get_save_path(output_dir, backbone, dataset_name, prompt, sc_num, start_index, end_index):
     output_path = os.path.join(output_dir, f'{backbone}/')
 
     if not os.path.exists(output_path):
@@ -146,7 +155,7 @@ def get_save_path(output_dir, backbone, dataset_name, sc_num, start_index, end_i
 
     dt_string = datetime.now().strftime("%m_%d_%H_%M")
     save_path = os.path.join(output_path,
-                             f'{dataset_name}_sc{sc_num}_s{start_index}_e{end_index}_{dt_string}.jsonl')
+                             f'{dataset_name}_{prompt}_sc{sc_num}_s{start_index}_e{end_index}_{dt_string}.jsonl')
     return save_path
 
 
@@ -165,9 +174,10 @@ def get_slice_dataset(dataset, start_index, end_index):
 
 
 if __name__ == '__main__':
-    start_index, end_index, dataset_name, temperature, backbone, sc_num, output_dir, key = getArgs()
+    start_index, end_index, dataset_name, backbone, temperature, prompt, sc_num, output_dir, key = getArgs()
 
     print('=' * 25)
+    print(f'{backbone=} {temperature=} {prompt=} {sc_num=} {dataset_name=} {start_index=} {end_index=} {output_dir=}')
     start_time = time.time()
     print('Current time: ', time.strftime(
         "%Y-%m-%d %H:%M:%S", time.localtime()))
@@ -176,7 +186,7 @@ if __name__ == '__main__':
     tasks = get_slice_dataset(dataset, start_index, end_index)
 
     save_path = get_save_path(
-        output_dir, backbone, dataset_name, sc_num, start_index, end_index)
+        output_dir, backbone, dataset_name, prompt, sc_num, start_index, end_index)
 
     # === run experiments ===
     unfinished_tasks = []
@@ -187,9 +197,9 @@ if __name__ == '__main__':
             try:
                 ans = sc_query(
                     task, key=key, temperature=temperature,
-                    sc_num=sc_num, backbone=backbone)
+                    prompt=prompt, sc_num=sc_num, backbone=backbone)
             except Exception as e:
-                print(f'[#{i} Task]', e)
+                print(f"[#{task['index']} Task]", e)
                 unfinished_tasks.append(task)
                 break
         else:

@@ -26,19 +26,17 @@ def jsonlines_dump(fname: str, data: Union[dict, list]):
 
 
 def extract_classes_turbo(solution: str, classes: list):
-    prd = [x[0][6:-1] for x in regex.finditer("boxed{[1-9a-zA-Z]+}", solution)]
-    if prd:
-        return prd[-1]
-    
-    prd = [x[0] for x in regex.finditer(r'[\d\.,]+', solution) if regex.search(r'\d', x[0])]
-    prd = list(filter(lambda x: x in classes, prd))
-    if prd:
-        return prd[-1]
-    
+    max_num = 0
+    prd = None
     for c in classes:
-        if regex.findall(c, solution):
+        num = len(regex.findall(c, solution))
+        if num > max_num:
+            max_num = num 
             prd = c
-            return prd
+        elif num and num == max_num:
+            prd = 'Ambiguous'
+    if prd:
+        return prd
     return None    
 
 

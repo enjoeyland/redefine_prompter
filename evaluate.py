@@ -12,10 +12,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--input_path', type=str, required=True)
     parser.add_argument('--support_path', type=str, required=False)
+    parser.add_argument('--wrong', action='store_true')
     args = parser.parse_args()
 
     input_path = args.input_path
     support_path = args.support_path
+    wrong = args.wrong
 
     output_data = jsonlines_load(input_path)
     mapping_index = []
@@ -42,5 +44,5 @@ if __name__ == '__main__':
         total += 1
 
     print(f'Accuracy: {correct/total}, Total: {total}, Correct: {correct}, Error: {error}, Skipped: {skipped}')
-    
-    jsonlines_dump(get_save_path(input_path),wrong_data)
+    if wrong:
+        jsonlines_dump(get_save_path(input_path),wrong_data)

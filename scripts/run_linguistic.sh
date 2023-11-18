@@ -11,6 +11,7 @@ python3 main.py \
         --dataset 'linguistic' \
         --backbone 'chatgpt' \
         --temperature 0.5 \
+        --prompt 'cot'\
         --sc_num 5 \
         --output_dir 'output/' \
         --key ${APIKEY} \
