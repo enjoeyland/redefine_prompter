@@ -39,11 +39,16 @@ def extract_classes_turbo(solution: str, classes: list):
         return prd
     return None    
 
+def extract_rate_turbo(solution: str, expect: list):
+    try:
+        prd = regex.search(r'\d+', regex.search(r'\d.+ '+expect, solution.lower())[0])[0]
+        return int(prd)
+    except:
+        return None
 
 def extract_num_turbo(solution: str):
     ans = solution.strip().split('\n')[-1].replace('So the answer is ', '')
-    prd = [x[0] for x in regex.finditer(
-        r'[\d\.,]+', ans) if regex.search(r'\d', x[0])]
+    prd = [x[0] for x in regex.finditer(r'[\d\.,]+', ans) if regex.search(r'\d', x[0])]
     if len(prd) > 2:
         prd = prd[-1]
     elif len(prd):
