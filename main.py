@@ -4,6 +4,7 @@ import os
 import openai
 import random
 import time
+import atexit
 from datetime import datetime, timedelta
 import argparse
 from tqdm import tqdm
@@ -34,7 +35,7 @@ def query(data: dict, key: str, temperature: float, backbone: str, prompt: str, 
     query_message = [{"role": "user", "content": prompt_message}]
 
     # what is antonym of scarce? top 10
-    
+
     if backbone == 'gpt4':
         model_name = 'gpt-4'
     elif backbone == 'chatgpt':
@@ -83,7 +84,6 @@ def sc_query(data: dict, key: str, temperature: float, prompt: str, sc_num: int,
     Returns:
         to_dump_data: a dict containing the question, answer, the final answer and other information
     '''
-    classes = [s.strip() for s in ast.literal_eval(data['classes'])]
 
     try:
         solutions = query(
@@ -91,6 +91,7 @@ def sc_query(data: dict, key: str, temperature: float, prompt: str, sc_num: int,
     except Exception as e:
         raise e
     
+    classes = [s.strip() for s in ast.literal_eval(data['classes'])]    
     final_answers = [extract_classes_turbo(s, classes) for s in solutions]
 
     count = Counter(final_answers)
@@ -172,6 +173,16 @@ def get_slice_dataset(dataset, start_index, end_index):
     print('Current total tasks: ', len(tasks))
     return tasks
 
+def wrap_up(start_time, unfinished_tasks):
+    print()
+    end_time = time.time()
+    print('Finish at time: ', time.strftime(
+        "%Y-%m-%d %H:%M:%S", time.localtime()))
+    print(f'Time used: {timedelta(seconds=end_time - start_time)}')
+
+    if len(unfinished_tasks) > 0:
+        print('Unfinished tasks: ')
+        print(*unfinished_tasks, sep="\n")
 
 if __name__ == '__main__':
     start_index, end_index, dataset_name, backbone, temperature, prompt, sc_num, output_dir, key = getArgs()
@@ -188,8 +199,10 @@ if __name__ == '__main__':
     save_path = get_save_path(
         output_dir, backbone, dataset_name, prompt, sc_num, start_index, end_index)
 
+
     # === run experiments ===
     unfinished_tasks = []
+    atexit.register(wrap_up, start_time, unfinished_tasks)
     for i, task in enumerate(tqdm(tasks)):
         task_start_time = time.time()
         ans = None
@@ -209,14 +222,5 @@ if __name__ == '__main__':
             sleep_time = 5
             time.sleep(sleep_time)
                
-    print()
-    end_time = time.time()
-    print('Finish at time: ', time.strftime(
-        "%Y-%m-%d %H:%M:%S", time.localtime()))
-    print(f'Time used: {timedelta(seconds=end_time - start_time)}')
-
-    if len(unfinished_tasks) > 0:
-        print('Unfinished tasks: ')
-        print(*unfinished_tasks, sep="\n")
-
+    wrap_up(start_time, unfinished_tasks)
     print('Done')
