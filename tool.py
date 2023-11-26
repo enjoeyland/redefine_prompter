@@ -40,11 +40,13 @@ def extract_classes_turbo(solution: str, classes: list):
     return None    
 
 def extract_rate_turbo(solution: str, expect: list):
+    if not regex.search(r'\d', solution):
+        return None
     try:
         prd = regex.search(r'\d+', regex.search(r'\d.+ '+expect, solution.lower())[0])[0]
         return int(prd)
-    except:
-        return None
+    except:            
+        return 15
 
 def extract_num_turbo(solution: str):
     ans = solution.strip().split('\n')[-1].replace('So the answer is ', '')
