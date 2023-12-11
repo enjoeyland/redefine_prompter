@@ -5,18 +5,35 @@ if __name__ == '__main__':
 
     wrong_original = []
     correct = []
-    correct_rate = []
+    correct_rank = []
     wrong = []
-    wrong_rate = []
+    wrong_rank = []
+    error = []
+    error_rank = []
     for r in output_data:
         if not r['original']:
             wrong_original.append(r['index'])
         elif r['majority_ans'] == r['answer']:
             correct.append(r['index'])
-            correct_rate.append(r['avg_rate'])
-        elif r['majority_ans'] != 'Ambiguous':
+            correct_rank.append(r['avg_rank'])
+        elif r['majority_ans']:
             wrong.append(r['index'])
-            wrong_rate.append(r['avg_rate'])
-
-    print(f'correct={len(correct)}, correct_rate={sum(correct_rate)/len(correct_rate)}, wrong={len(wrong)}, wrong_rate={sum(wrong_rate)/len(wrong_rate)}')
-    print(ttest_ind(correct_rate, wrong_rate, equal_var=False))
+            wrong_rank.append(r['avg_rank'])
+        else:
+            error.append(r['index'])
+            error_rank.append(r['avg_rank'])
+    print(f'correct={len(correct)}, correct_rank={sum(correct_rank)/len(correct_rank)}')
+    print(f'wrong={len(wrong)}, wrong_rank={sum(wrong_rank)/len(wrong_rank)}')
+    if error:
+        print(f'error={len(error)}, error_rank={sum(error_rank)/len(error_rank)}')
+    else:
+        print(f'error={len(error)}')
+    
+    print()
+    print("correct vs wrong")
+    print(ttest_ind(correct_rank, wrong_rank, equal_var=False))
+    if len(error) > 4:
+        print("correct vs error")
+        print(ttest_ind(correct_rank, error_rank, equal_var=False))
+        print("wrong vs error")
+        print(ttest_ind(wrong_rank, error_rank, equal_var=False))
