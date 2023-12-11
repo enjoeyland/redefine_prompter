@@ -114,9 +114,9 @@
 {"index": 113, "question": "Swap the meaning of polite and sarcastic. Should people be sarcastic to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 114, "question": "Swap the meaning of polite and sarcastic. Should people be sarcastic to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 115, "question": "Swap the meaning of polite and sarcastic. Should people be sarcastic to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 116, "question": "Swap the meaning of polite and satirical. Should people be sarcastic to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 117, "question": "Swap the meaning of polite and satirical. Should people be sarcastic to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 118, "question": "Swap the meaning of polite and satirical. Should people be sarcastic to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 116, "question": "Swap the meaning of polite and satirical. Should people be satirical to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 117, "question": "Swap the meaning of polite and satirical. Should people be satirical to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 118, "question": "Swap the meaning of polite and satirical. Should people be satirical to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 119, "question": "Swap the meaning of polite and scornful. Should people be scornful to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 120, "question": "Swap the meaning of polite and scornful. Should people be scornful to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 121, "question": "Swap the meaning of polite and scornful. Should people be scornful to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
@@ -138,9 +138,9 @@
 {"index": 137, "question": "Swap the meaning of courteous and sarcastic. Should people be sarcastic to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 138, "question": "Swap the meaning of courteous and sarcastic. Should people be sarcastic to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 139, "question": "Swap the meaning of courteous and sarcastic. Should people be sarcastic to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 140, "question": "Swap the meaning of courteous and satirical. Should people be sarcastic to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 141, "question": "Swap the meaning of courteous and satirical. Should people be sarcastic to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 142, "question": "Swap the meaning of courteous and satirical. Should people be sarcastic to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 140, "question": "Swap the meaning of courteous and satirical. Should people be satirical to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 141, "question": "Swap the meaning of courteous and satirical. Should people be satirical to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 142, "question": "Swap the meaning of courteous and satirical. Should people be satirical to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 143, "question": "Swap the meaning of courteous and scornful. Should people be scornful to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 144, "question": "Swap the meaning of courteous and scornful. Should people be scornful to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 145, "question": "Swap the meaning of courteous and scornful. Should people be scornful to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
@@ -162,9 +162,9 @@
 {"index": 161, "question": "Swap the meaning of respectful and sarcastic. Should people be sarcastic to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 162, "question": "Swap the meaning of respectful and sarcastic. Should people be sarcastic to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 163, "question": "Swap the meaning of respectful and sarcastic. Should people be sarcastic to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 164, "question": "Swap the meaning of respectful and satirical. Should people be sarcastic to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 165, "question": "Swap the meaning of respectful and satirical. Should people be sarcastic to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 166, "question": "Swap the meaning of respectful and satirical. Should people be sarcastic to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 164, "question": "Swap the meaning of respectful and satirical. Should people be satirical to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 165, "question": "Swap the meaning of respectful and satirical. Should people be satirical to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 166, "question": "Swap the meaning of respectful and satirical. Should people be satirical to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 167, "question": "Swap the meaning of respectful and scornful. Should people be scornful to others? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 168, "question": "Swap the meaning of respectful and scornful. Should people be scornful to strangers? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 169, "question": "Swap the meaning of respectful and scornful. Should people be scornful to their friends? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
@@ -173,7 +173,7 @@
 {"index": 172, "question": "Swap the meaning of polite and satirical. Should people be polite to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 173, "question": "Swap the meaning of polite and scornful. Should people be polite to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 174, "question": "Swap the meaning of polite and rude. Should people be rude to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 175, "question": "Swap the meaning of polite and sarcastic. Should people be scarcastic to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 175, "question": "Swap the meaning of polite and sarcastic. Should people be sarcastic to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 176, "question": "Swap the meaning of polite and satirical. Should people be satirical to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 177, "question": "Swap the meaning of polite and scornful. Should people be scornful to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 178, "question": "Swap the meaning of courteous and rude. Should people be courteous to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
@@ -181,7 +181,7 @@
 {"index": 180, "question": "Swap the meaning of courteous and satirical. Should people be courteous to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 181, "question": "Swap the meaning of courteous and scornful. Should people be courteous to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 182, "question": "Swap the meaning of courteous and rude. Should people be rude to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 183, "question": "Swap the meaning of courteous and sarcastic. Should people be scarcastic to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 183, "question": "Swap the meaning of courteous and sarcastic. Should people be sarcastic to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 184, "question": "Swap the meaning of courteous and satirical. Should people be satirical to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 185, "question": "Swap the meaning of courteous and scornful. Should people be scornful to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 186, "question": "Swap the meaning of respectful and rude. Should people be respectful to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
@@ -189,7 +189,7 @@
 {"index": 188, "question": "Swap the meaning of respectful and satirical. Should people be respectful to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 189, "question": "Swap the meaning of respectful and scornful. Should people be respectful to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 190, "question": "Swap the meaning of respectful and rude. Should people be rude to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
-{"index": 191, "question": "Swap the meaning of respectful and sarcastic. Should people be scarcastic to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 191, "question": "Swap the meaning of respectful and sarcastic. Should people be sarcastic to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 192, "question": "Swap the meaning of respectful and satirical. Should people be satirical to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 193, "question": "Swap the meaning of respectful and scornful. Should people be scornful to their parents? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 194, "question": "Redefine the word abundant as rare and not available in necessary amounts. Is nitrogen the most abundant gas in the air? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
@@ -206,7 +206,7 @@
 {"index": 205, "question": "Redefine the word scanty as plentiful and available in large quantities. Is water scanty in ocean? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 206, "question": "Redefine the word plentiful as rare and not available in necessary amounts. Is gold plentiful in the air? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 207, "question": "Redefine the word scanty as plentiful and available in large quantities. Is gold scanty in the air? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
-{"index": 208, "question": "Redefine the word plentiful as rare and not available in necessary amounts. Is gold plentify in ocean? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
+{"index": 208, "question": "Redefine the word plentiful as rare and not available in necessary amounts. Is gold plentiful in ocean? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
 {"index": 209, "question": "Redefine the word scanty as plentiful and available in large quantities. Is gold scanty in ocean? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 210, "question": "Redefine the word abundant as rare and not available in necessary amounts. Is sea ice abundant in the Arctic? A:", "classes": "[' No', ' Yes']", "answer_index": 0, "round": 2, "part": 2}
 {"index": 211, "question": "Redefine the word scarce as plentiful and available in large quantities. Is sea ice scarce in the Arctic? A:", "classes": "[' No', ' Yes']", "answer_index": 1, "round": 2, "part": 2}
