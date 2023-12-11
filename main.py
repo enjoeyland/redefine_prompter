@@ -13,7 +13,7 @@ from tool import *
 
 
 
-def query(data: dict, key: str, temperature: float, backbone: str, prompt: str, sc_num: int):
+def query(message: dict, key: str, temperature: float, backbone: str, prompt: str, sc_num: int):
     '''
     This function is used to query OpenAI for solutions.
 
@@ -28,14 +28,6 @@ def query(data: dict, key: str, temperature: float, backbone: str, prompt: str, 
     Returns:
         completions: a list containing the CoT solution
     '''    
-    classes = [f"\\boxed{{{s.strip()}}}"  for s in ast.literal_eval(data['classes'])]
-    prompt_message = f"{data['question']}\nclasses: {classes}"
-    if prompt == 'cot':
-         prompt_message += "\n\nLet’s think step by step"
-    query_message = [{"role": "user", "content": prompt_message}]
-
-    # what is antonym of scarce? top 10
-
     if backbone == 'gpt4':
         model_name = 'gpt-4'
     elif backbone == 'chatgpt':
@@ -51,7 +43,7 @@ def query(data: dict, key: str, temperature: float, backbone: str, prompt: str, 
                 api_key=key,
                 model=model_name,
                 max_tokens=500,
-                messages=query_message,
+                messages=message,
                 temperature=temperature,
                 n=sc_num,
                 request_timeout=request_timeout)
@@ -85,17 +77,31 @@ def sc_query(data: dict, key: str, temperature: float, prompt: str, sc_num: int,
         to_dump_data: a dict containing the question, answer, the final answer and other information
     '''
 
+    classes = [f"\\boxed{{{s.strip()}}}"  for s in ast.literal_eval(data['classes'])]
+    prompt_message = f"{data['question']}\nclasses: {classes}"
+    if prompt == 'cot':
+        prompt_message += "\n\nLet’s think step by step"
+    elif prompt == 'instruct':
+        prompt_message += """\n\nLet’s think step by step
+1. separate instruction and question
+2. map target in question under instruction. Express mapper as {target->value_of_target} form in place of question.
+3. Solve question.  Put your answer in \\boxed{}."""
+    query_message = [{"role": "user", "content": prompt_message}]
+
     try:
-        solutions = query(
-            data, key, temperature, backbone, prompt, sc_num)
+        solutions = query(query_message, key, temperature, backbone, prompt, sc_num)
     except Exception as e:
         raise e
     
     classes = [s.strip() for s in ast.literal_eval(data['classes'])]    
     final_answers = [extract_classes_turbo(s, classes) for s in solutions]
 
-    count = Counter(final_answers)
-    majority_ans = count.most_common(1)[0][0]
+    filtered_answers = list(filter(lambda x: x is not None, filter(lambda x: 'Ambiguous' != x, final_answers)))
+    if filtered_answers:
+        count = Counter(filtered_answers)
+        majority_ans = count.most_common(1)[0][0]
+    else:
+        majority_ans = None
 
     # === dump data ===
     to_dump_data = OrderedDict({
@@ -128,7 +134,7 @@ def getArgs():
     parser.add_argument('--backbone', type=str,
                         choices=['chatgpt', 'gpt4'], default='chatgpt')
     parser.add_argument('--temperature', type=float, default=0.5)
-    parser.add_argument('--prompt', type=str, choices=['standard', 'cot'], default='standard')
+    parser.add_argument('--prompt', type=str, choices=['standard', 'cot','instruct'], default='standard')
     parser.add_argument('--sc_num', type=int, default=1,
                         help='Self-consistency samples. 1 indicates greedy decoding')
     parser.add_argument('--output_dir', type=str, default='output/')
@@ -222,5 +228,4 @@ if __name__ == '__main__':
             sleep_time = 5
             time.sleep(sleep_time)
                
-    wrap_up(start_time, unfinished_tasks)
     print('Done')
