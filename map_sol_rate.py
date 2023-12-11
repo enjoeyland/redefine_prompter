@@ -62,7 +62,7 @@ for data in tqdm(linguistic_output):
         'original': data['index'] not in LINGUISTIC_WRONG_FROM_ORIGINAL,
         'answer': data['answer'],
         'majority_ans': data['majority_ans'],
-        'avg_rate': rating_output[idx]['avg_rate'],
+        'avg_rank': rating_output[idx]['avg_rank'],
         's_final_answers': data['final_answers'],
         'r_index': rating_output[idx]['index'], 
         'r_final_answers': rating_output[idx]['final_answers'],

@@ -39,7 +39,7 @@ def extract_classes_turbo(solution: str, classes: list):
         return prd
     return None    
 
-def extract_rate_turbo(solution: str, expect: list):
+def extract_rank_turbo(solution: str, expect: list):
     if not regex.search(r'\d', solution):
         return None
     try:

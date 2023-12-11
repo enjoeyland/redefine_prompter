@@ -7,12 +7,12 @@ set -x
 cd ${EXEHOME}
 
 
-python3 rating.py \
+python3 ranking.py \
         --backbone 'chatgpt' \
         --temperature 0.5 \
         --sc_num 5 \
         --output_dir 'output/' \
         --key ${APIKEY} \
-        # --start 6 \
-        # --end 7
+        --start 0 \
+        --end -1
 

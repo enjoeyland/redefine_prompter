@@ -86,15 +86,15 @@ def sc_query(data: dict, key: str, temperature: float, sc_num: int, backbone: st
     
     final_answers = []
     for s in solutions:
-        ans = extract_rate_turbo(s, data['to'])
+        ans = extract_rank_turbo(s, data['to'])
         final_answers.append(ans)
-    rates = [ans for ans in final_answers if ans is not None]
-    avg_rate = sum(rates)/len(rates)
+    ranks = [ans for ans in final_answers if ans is not None]
+    avg_rank = sum(ranks)/len(ranks)
 
     # === dump data ===
     to_dump_data = OrderedDict({
         'index': data['index'], 
-        'avg_rate': avg_rate,
+        'avg_rank': avg_rank,
         'final_answers': final_answers,
         'from': data['from'],
         'to': data['to'],
