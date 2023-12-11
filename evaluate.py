@@ -1,7 +1,7 @@
 import os
 import argparse
 from tool import *
-from mapping import *
+from mapping_index import *
 
 def get_save_path(path):
     path = os.path.normpath(path).split(os.sep)
